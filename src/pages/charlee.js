@@ -1,6 +1,5 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import styled, { css } from 'styled-components';
-import { Document, Page } from 'react-pdf';
+import { Container, Row } from 'react-bootstrap';
+import styled from 'styled-components';
 
 import React, {useEffect} from "react";
 import Aos from 'aos';
@@ -26,13 +25,7 @@ const Styledh5 = styled.h5`
 
 const StyledText = styled.h1`
   color: grey;
-  font-size: 50px;
-  text-align: center;
-`;
-
-const StyledLinkText = styled.h1`
-  color: grey;
-  font-size: 50px;
+  font-size: 35px;
   text-align: center;
 `;
 
@@ -77,7 +70,7 @@ function Charlee() {
         </StyledText>
       </StyledRow>
       <StyledRow data-aos="fade-up">
-        <iframe src={documentation} width="600" height="800"/>
+        <iframe src={documentation} title="charlee documentation" width="600" height="800"/>
       </StyledRow>
       <StyledRow data-aos="fade-up">
         <StyledText>

@@ -1,6 +1,6 @@
-import { Button, Container, Card, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 import React, {useEffect} from "react";
 import Aos from 'aos';
@@ -26,22 +26,6 @@ const StyledText = styled.h1`
   text-align: center;
 `;
 
-const StyledImg = styled.img`
-  border: 10px solid dark-grey;
-  width: 600px;
-  height: 800px;
-  object-fit: cover;
-  padding: 2rem;
-`;
-
-const StyledImg2 = styled.img`
-  border: 10px solid dark-grey;
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  padding: 2rem;
-`;
-
 function SeaPerchPage() {
   useEffect(() => {
     Aos.init({duration: 2000});
@@ -61,7 +45,7 @@ function SeaPerchPage() {
         </StyledText>
       </StyledRow>
       <StyledRow data-aos="fade-up">
-        <iframe src={documentation} width="600" height="800"/>
+        <iframe src={documentation} title="SeaPerch Documentation" width="600" height="800"/>
       </StyledRow>
       <StyledRow data-aos="fade-up">
         <StyledText>

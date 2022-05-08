@@ -12,7 +12,7 @@ import Hackathon from '../Images/Hackathon.png';
 
 import Card from '../components/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 const StyledRow = styled(Row)`
   padding: 1rem;

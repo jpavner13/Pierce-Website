@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Rocket from '../Images/Rocket.png'
 import RocketVideo from '../Images/Rocket_Video.mp4'
 import RocketWork from '../Images/RocketWork.mp4'
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import React, {useEffect} from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";

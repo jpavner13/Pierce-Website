@@ -1,8 +1,7 @@
 import styled from 'styled-components';
-import { Button, Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import React from 'react';
-import classes from './CSS Files/Button.css';
 
 const StyledCard = styled.div`
   padding: 1rem;
@@ -33,18 +32,6 @@ const Styledh5 = styled.h5`
 const StyledP = styled.p`
   color: white;
   text-align: center;
-`;
-
-const StyledA = styled.a`
-  justify-content: center;
-  align-items: center;
-`;
-
-const StyledButton = styled(Button)`
-  text-decoration: underline;
-  text-shadow: 2px 2px 5px white;
-  color: black;
-  font-size: 3rem;
 `;
 
 const Card = (props) => {

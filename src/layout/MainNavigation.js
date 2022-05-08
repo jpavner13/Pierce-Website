@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Image from 'react-bootstrap/Image';
 import logo from '../Images/logo.png';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 const Header = styled.div`
   width: 100%;

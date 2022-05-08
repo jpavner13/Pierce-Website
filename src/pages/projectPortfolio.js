@@ -1,14 +1,11 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import Card from '../components/ShopCard';
-import Beast from '../Images/Beast.jpg';
-import styled, { css } from 'styled-components';
+import { Container, Row } from 'react-bootstrap';
+import styled from 'styled-components';
 
 import React, {useEffect} from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
 import { TouchableOpacity, Linking } from "react-native";
-import styles from '../components/CSS Files/underlineHover.css'
 const googleDrive = "https://drive.google.com/drive/u/0/folders/15oNCRlxgaRJGQ7ES3Zfb9ziCp28WumuO"
 
 const StyledRow = styled(Row)`
@@ -24,12 +21,6 @@ const Styledh5 = styled.h5`
   text-shadow: 2px 2px 5px white;
 `;
 
-const StyledText = styled.h1`
-  color: grey;
-  font-size: 35px;
-  text-align: center;
-`;
-
 function ProjectPortfolioPage() {
   useEffect(() => {
     Aos.init({duration: 2000});
@@ -38,7 +29,7 @@ function ProjectPortfolioPage() {
     <Container fluid>
       <Styledh5 data-aos="fade-down">Project Portfolio</Styledh5>
       <StyledRow data-aos="fade-up">
-        <iframe src="https://drive.google.com/embeddedfolderview?id=15oNCRlxgaRJGQ7ES3Zfb9ziCp28WumuO#grid" width="100%" height="500" frameborder="0"></iframe>
+        <iframe src="https://drive.google.com/embeddedfolderview?id=15oNCRlxgaRJGQ7ES3Zfb9ziCp28WumuO#grid" title="Project Drive" width="100%" height="500" frameborder="0"></iframe>
       </StyledRow>
       <StyledRow data-aos="fade-up">
           <TouchableOpacity onPress={() => Linking.openURL(googleDrive)}>

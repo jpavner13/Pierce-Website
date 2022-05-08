@@ -1,6 +1,6 @@
 import MainNavigation from './MainNavigation';
 import Footnote from './Footnote';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 const Main = styled.div`
   margin: 3rem auto;

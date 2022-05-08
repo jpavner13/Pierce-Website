@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 import Guitar from '../Images/Guitar.png'
 import Pens from '../Images/Pens.jpeg'
@@ -24,13 +24,6 @@ const StyledImg = styled.img`
   height: 800px;
   object-fit: cover;
   padding: 2rem;
-`;
-
-const StyledText = styled.h1`
-  color: grey;
-  font-size: 50px;
-  text-align: left;
-  virtical-align: center;
 `;
 
 const StyledText1 = styled.h1`

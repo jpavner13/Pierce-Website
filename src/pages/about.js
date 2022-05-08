@@ -1,6 +1,6 @@
-import { Button, Container, Card, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 import React, {useEffect} from "react";
 import Aos from 'aos';
@@ -118,7 +118,7 @@ function AboutPage() {
         </StyledText2>
       </StyledRow>
       <StyledRow data-aos="fade-up">
-        <iframe src={Resume} width="600" height="800"/>
+        <iframe src={Resume} title="Resume" width="600" height="800"/>
       </StyledRow>
     </Container>
   );
