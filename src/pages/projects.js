@@ -3,8 +3,6 @@ import React, {useEffect} from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
-import classes from '../components/CSS Files/Button.css'
-
 import Charlee from '../Images/Charlee.png';
 import Rocket from '../Images/Rocket.png';
 import Duck from '../Images/Duck.png';

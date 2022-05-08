@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components';
-import classes from '../components/CSS Files/underlineHover.css'
+import '../components/CSS Files/underlineHover.css'
 
 import { TouchableOpacity, Linking } from "react-native";
 
@@ -31,7 +31,7 @@ function Footnote() {
       <Row class="w-100">
         <Col>
           <TouchableOpacity onPress={() => Linking.openURL(Twitter)}>
-            <p class="hover-underline-animation"> Twitter </p>     
+            <p className="hover-underline-animation"> Twitter </p>     
           </TouchableOpacity>
         </Col>
       </Row>

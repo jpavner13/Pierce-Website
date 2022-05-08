@@ -3,6 +3,8 @@ import { Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import React from 'react';
 
+import '../components/CSS Files/Button.css'
+
 const StyledCard = styled.div`
   padding: 1rem;
   height: 40rem;
@@ -51,7 +53,7 @@ const Card = (props) => {
         <Row>
           <div class="col d-flex justify-content-center">
             <Link to={props.routeLink}>
-              <button class="button">
+              <button className="button">
                 <span>{props.buttonName} </span>
               </button>
             </Link>
