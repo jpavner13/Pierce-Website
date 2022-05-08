@@ -71,7 +71,9 @@ function AboutPage() {
         <Col>
           <Styledh5 data-aos="fade-down">About</Styledh5>
           <StyledText data-aos="fade-left">
-          Second year computer science student at the University of Colorado Boulder. After moving back to the US from the Netherlands my eyes were opened to the world of possibilities, especially in engineering. I started playing around with mechanical and electrical engineering obtaining multiple professional certifications along the way. Shortly thereafter I developed a love for designing, integrating, and programming circuit boards. I always need to keep my hands busy weather it be on personal projects, school, or work. I like to work fast and diligently, and I want to use my skills and ambition to make a positive impact on the world.
+            Second year honors engineering student majoring in computer science at the University of Colorado Boulder. I started playing around with mechanical and 
+            electrical engineering projects in middele school. I've obtained multiple professional certifications, and won numerous technology and engineering 
+            competitions. I work fast and diligently, and I want to use my skills and ambition to make a positive impact on the world.
           </StyledText>
         </Col>
       </StyledRow>
