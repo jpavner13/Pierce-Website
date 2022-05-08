@@ -72,7 +72,7 @@ function AboutPage() {
           <Styledh5 data-aos="fade-down">About</Styledh5>
           <StyledText data-aos="fade-left">
             Second year honors Engineering student majoring in Computer Science at the University of Colorado Boulder. I've been obsessed with mechanical and 
-            electrical engineering projects ever since middle school. Now computer Science is my passion. I've obtained multiple professional certifications, and 
+            electrical engineering projects ever since middle school. Now Computer Science is my passion. I've obtained multiple professional certifications, and 
             won numerous technology and engineering competitions. I work fast and diligently, and I want to use my skills and ambition to make a positive impact on 
             the world.
           </StyledText>

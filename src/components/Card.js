@@ -7,8 +7,8 @@ import '../components/CSS Files/Button.css'
 
 const StyledCard = styled.div`
   padding: 1rem;
-  height: 40rem;
-  width: 30rem;
+  height: 100%;
+  width: 100%;
   background-color: #363636;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(200, 200, 200, 0.8);
@@ -18,14 +18,17 @@ const StyledImg = styled.img`
   border-style: solid;
   border-color: black;
   padding: 0;
-  width: 475px;
-  height: 300px;
+  height: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   object-fit: cover;
+  image-align: center;
 `;
 
 const Styledh5 = styled.h5`
   color: black;
-  font-size: 40px;
+  font-size: auto;
   text-align: center;
   text-decoration: underline;
   text-shadow: 2px 2px 5px white;
@@ -34,6 +37,7 @@ const Styledh5 = styled.h5`
 const StyledP = styled.p`
   color: white;
   text-align: center;
+  font-size: auto;
 `;
 
 const Card = (props) => {

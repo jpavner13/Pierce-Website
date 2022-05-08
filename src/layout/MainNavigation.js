@@ -26,13 +26,15 @@ const Ul = styled.div`
 
 const Li = styled.div`
   margin-left: 12%;
+  width: auto;
+  padding = 2rem;
 `;
 
 const StyledLink = styled(Link)`
   text-decoration: underline;
   text-shadow: 2px 2px 5px white;
   color: black;
-  font-size: 3rem;
+  font-size: 3vw;
 `;
 
 function MainNavigation() {

@@ -75,7 +75,7 @@ function SideProjects() {
       <StyledRow>
         <Col data-aos="fade-right">
           <StyledText1>
-            I like to use my woodworking skills to create scultures. This burl and resin piece won a Gold Key in the Colorado Scholastic Art and Writing competition.
+            I like to use my woodworking skills to create sculptures. This burl and resin piece won a Gold Key in the Colorado Scholastic Art and Writing competition.
           </StyledText1>
         </Col>
         <Col data-aos="fade-left">

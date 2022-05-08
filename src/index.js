@@ -8,6 +8,7 @@ import App from './App';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
+      <title>Pierce Avner</title>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
