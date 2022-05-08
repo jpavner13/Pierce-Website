@@ -19,7 +19,7 @@ function App() {
     <Layout>
       <ScrollToTop>
         <Routes>
-          <Route path="/about" element={<AboutPage />} />
+          <Route path="/" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectPage />} />
           <Route path="/projectPortfolio" element={<ProjectPortfolioPage />} />
           <Route path="/contact" element={<ContactPage />} />

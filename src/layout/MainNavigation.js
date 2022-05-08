@@ -49,7 +49,7 @@ function MainNavigation() {
       <Nav>
         <Ul>
           <Li>
-            <StyledLink to="/about">About</StyledLink>
+            <StyledLink to="/">About</StyledLink>
           </Li>
           <Li>
             <StyledLink to="/projects">Projects</StyledLink>
