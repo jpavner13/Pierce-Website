@@ -35,23 +35,23 @@ function ProjectPage() {
           <Card
             title="Lockheed Martin Rocket"
             src={Rocket}
-            description="A great example of how I push through failure and work under stress and pressure..."
+            description="A great example of how I push through failure and work under pressure..."
             buttonName="Read More"
             routeLink="/Rocket"
           />
         </Col>
         <Col data-aos="flip-left">
           <Card
-            title="Charlee"
+            title="Animatronic Dinosaur"
             src={Charlee}
-            description="Animatronic dinosaur submitted to a national technology and engineering competition"
+            description="Tecnology Student Association state champion"
             buttonName="Read More"
             routeLink="/Charlee"
           ></Card>
         </Col>
         <Col data-aos="flip-left">
           <Card
-            title="Side Projects"
+            title="Personal Projects"
             src={Guitar}
             description="Things I do to keep my hands busy"
             buttonName="Read More"

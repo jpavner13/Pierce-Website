@@ -32,11 +32,12 @@ function SeaPerchPage() {
   }, []);
   return (
     <Container fluid>
-      <Styledh5 data-aos="fade-down">SeaPerch</Styledh5>
+      <Styledh5 data-aos="fade-down">Underwater Robotic Submarine</Styledh5>
       <StyledRow data-aos="fade-up">
         <StyledText>
-          This was my first ever tech competition. It was hosted by the US Navy. I worked on a team with my brother and we were the first ones ever to place top 10 in the world
-          from a land locked state, Colorado. We were also the first group ever that were able to make a working claw within the $20 budget.
+          This was my first ever tech competition. It was hosted by the US Navy. I worked on a team with my brother. A Navy recruiter said we were the first team to 
+          place in the international top 10 from the Rocky Mountiain Region. We were also the first team ever to incorporate a working claw onto the submarine within 
+          the $20 budget limitation.
         </StyledText>
       </StyledRow>
       <StyledRow data-aos="fade-up">
@@ -49,7 +50,7 @@ function SeaPerchPage() {
       </StyledRow>
       <StyledRow data-aos="fade-up">
         <StyledText>
-          The documentation for this project was also my first ever applied expirience of tecnical writing.
+          The documentation for this project was my first applied experience of tecnical writing.
         </StyledText>
       </StyledRow>
     </Container>

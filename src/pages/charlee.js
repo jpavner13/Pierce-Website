@@ -40,20 +40,8 @@ function Charlee() {
       </Row>
       <StyledRow data-aos="fade-up">
         <StyledText>
-          In this project a team and I were challenged to make a museum exhibit for a natural history museum. We decided to make an animatronic dilophosaurus.
-          I was in charge of doing all of the circuitry and electronic design, as well as programming all of the FPGA's to control the motion of the animatronic.
-        </StyledText>
-      </StyledRow>
-      <StyledRow data-aos="fade-up">
-        <video width="600" height="500" controls>
-          <source src={CharleeMov} type="video/mp4"/>
-        </video>
-      </StyledRow>
-      <StyledRow data-aos="fade-up">
-        <StyledText>
-          For this project, I used Arudino, Raspberry Pi, and an ESP32 DevKit board for the circuitry. I used c++, Python, and NodeRed to write the software. The 
-          animatronic was connected to my WiFi network so it could be controlled from anywhere in the world with a phone app (yes, I tested this) or the touch screen
-          on the front of the exhibit. It used, stepper motors, servos, phnumatics, and multiple mechanical systems to move.
+          My team and I were challenged to make a museum exhibit for a natural history museum. I was in charge of doing all of the circuitry 
+          and electronic design, as well as programming all of the FPGA's to control the motion of the animatronic.
         </StyledText>
       </StyledRow>
       <StyledRow data-aos="fade-up">
@@ -62,6 +50,18 @@ function Charlee() {
         </video>
         <video width="600" height="500" controls>
           <source src={Foam} type="video/mp4"/>
+        </video>
+      </StyledRow>
+      <StyledRow data-aos="fade-up">
+        <StyledText>
+          For this project, I used Arudino, Raspberry Pi, and an ESP32 DevKit board for the circuitry. I used c++, Python, and NodeRed to write the software. The 
+          animatronic was connected to my WiFi network so it could be controlled from anywhere in the world with a phone app (yes, I tested this) or the touch screen
+          on the front of the exhibit. It used stepper motors, servos, phnumatics, and multiple mechanical systems to move.
+        </StyledText>
+      </StyledRow>
+      <StyledRow data-aos="fade-up">
+        <video width="600" height="500" controls>
+          <source src={CharleeMov} type="video/mp4"/>
         </video>
       </StyledRow>
       <StyledRow>

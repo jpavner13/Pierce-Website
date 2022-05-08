@@ -48,12 +48,15 @@ function RocketPage() {
           <StyledImg src={Rocket} />
         </Col>
         <Col data-aos="fade-left">
-          <StyledText>For this project, my brother and I were challenged to design and manufacure a rocket that is capable of basic atmospheric readings (pressure, humidity, temperature, altitude, etc) as well as identify ground targets that were placed randomly on the ground.</StyledText>
+          <StyledText>
+            For this project, my brother and I were challenged to design and manufacture a rocket that is capable of atmospheric readings 
+            (pressure, humidity, temperature, altitude, etc) as well as identify targets that were placed randomly on the ground.
+          </StyledText>
         </Col>
       </StyledRow>
       <StyledRow data-aos="fade-up">
         <StyledText>
-          I spent months designing gorgeous custom pieces and creating and programming an Arudino module that worked like a dream. Looking back, it was simple work, but at the time it was my prized project and I was very proud of my work.
+          I spent months creating and programming an Arudino module that worked like a dream.
         </StyledText>
       </StyledRow>
       <StyledRow data-aos="fade-up">
@@ -64,12 +67,13 @@ function RocketPage() {
           <source src={RocketVideo} type="video/mp4"/>
         </video>
         <Col>
-          <StyledText>It didn't quite work as expected...</StyledText>
+          <StyledText>It didn't quite work as expected.</StyledText>
         </Col>
       </StyledRow>
       <StyledRow data-aos="fade-up">
         <StyledText>
-          ...But with some scrap micro controllers and sensors from my bin of scrap parts, we were able to throw together a rocket overnight to launch the following day.
+          ...But with some scrap micro controllers and sensors from my bin of scrap parts, we were able to completely rebuild a rocket overnight to launch the 
+          following day.
         </StyledText>
       </StyledRow>
       <StyledRow data-aos="fade-up">
@@ -79,7 +83,7 @@ function RocketPage() {
       </StyledRow>
       <StyledRow data-aos="fade-up">
         <StyledText>
-          This project was a big confidence booster because I was able to prove to myself that with the right motivation, even tasks that seem impossible can be accomplished.
+          This project taught me that I can do anything if I refuse to quit.
         </StyledText>
       </StyledRow>
       <StyledRow data-aos="fade-up">

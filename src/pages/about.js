@@ -71,9 +71,10 @@ function AboutPage() {
         <Col>
           <Styledh5 data-aos="fade-down">About</Styledh5>
           <StyledText data-aos="fade-left">
-            Second year honors engineering student majoring in computer science at the University of Colorado Boulder. I started playing around with mechanical and 
-            electrical engineering projects in middele school. I've obtained multiple professional certifications, and won numerous technology and engineering 
-            competitions. I work fast and diligently, and I want to use my skills and ambition to make a positive impact on the world.
+            Second year honors Engineering student majoring in Computer Science at the University of Colorado Boulder. I've been obsessed with mechanical and 
+            electrical engineering projects ever since middle school. Now computer Science is my passion. I've obtained multiple professional certifications, and 
+            won numerous technology and engineering competitions. I work fast and diligently, and I want to use my skills and ambition to make a positive impact on 
+            the world.
           </StyledText>
         </Col>
       </StyledRow>
@@ -95,13 +96,13 @@ function AboutPage() {
           Software:
         </StyledText1>
         <StyledText2>
-          Solidworks, Adobe Illustrator, Cura, Meshmixer, Excel, Google applications, Github, etc.
+          Solidworks, Adobe Illustrator, Altium Designer, Eagle, Unity, Cura, Meshmixer, Excel, Google applications, Github, etc.
         </StyledText2>
       </StyledRow>
       <StyledRow data-aos="fade-up">
         <Col>
           <StyledText1>
-            Cirtifications:
+            Certifications:
           </StyledText1>
         </Col>
         <Col>
@@ -116,7 +117,7 @@ function AboutPage() {
       </StyledRow>
       <StyledRow data-aos="fade-up">
         <StyledText2>
-          Quick learner, Interpersonal, Strong communicator, Problem solver.
+          Quick learner, Creative, Strong interpersonal skills, Problem solver.
         </StyledText2>
       </StyledRow>
       <StyledRow data-aos="fade-up">

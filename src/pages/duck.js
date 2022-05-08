@@ -42,7 +42,7 @@ function DuckPage() {
         </StyledRow>
         <StyledRow data-aos="fade-up">
             <StyledText>
-                This was my first animatronic, and one of my more creepy projects. I packed all of my circuitry and actuators into a real taxidermied duck. This lead
+                This creepy project was my first animatronic. I packed all of my circuitry and actuators into a real taxidermied duck. This led
                 to some very creepy moments when the code didn't work quite as expected...
             </StyledText>
         </StyledRow>

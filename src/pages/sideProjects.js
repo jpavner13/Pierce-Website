@@ -37,7 +37,7 @@ function SideProjects() {
   return (
     <Container fluid>
       <Row data-aos="fade-down">
-        <Styledh5>Side Projects</Styledh5>
+        <Styledh5>Personal Projects</Styledh5>
       </Row>
       <StyledRow>
         <Col data-aos="fade-right" >
@@ -45,8 +45,7 @@ function SideProjects() {
         </Col>
         <Col>
           <StyledText1 data-aos="fade-left">
-            During Covid, one of my favorite side projects was making a hand made electric guitar from scratch. I used my new found free time to learn the guitar and
-            make one of my own. It ended up playing beautifly for my first guitar.
+            During Covid, I built an electric guitar from scratch. It was a challenge with my very limited tool collection.
           </StyledText1>
         </Col>
       </StyledRow>
@@ -68,7 +67,7 @@ function SideProjects() {
         </Col>
         <Col>
           <StyledText1 data-aos="fade-left">
-            When I learned about cycloids in calculus, I imediatly put it to use and designed my first hypocycloid gearbox. This eventually was put to use for the
+            When I learned about cycloids in Calculus, I put theory into practice and designed my first hypocycloid gearbox. I later used this gearbox for the
             body joint of Charlee (My Animatronic Dilophosaurus).
           </StyledText1>
         </Col>
@@ -76,7 +75,7 @@ function SideProjects() {
       <StyledRow>
         <Col data-aos="fade-right">
           <StyledText1>
-            I used my wood working skills to create and submit a sculpture into the scholastic art and writing competition using burl and resin, I ended up winning a gold key.
+            I like to use my woodworking skills to create scultures. This burl and resin piece won a Gold Key in the Colorado Scholastic Art and Writing competition.
           </StyledText1>
         </Col>
         <Col data-aos="fade-left">
