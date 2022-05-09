@@ -3,6 +3,8 @@ import Image from 'react-bootstrap/Image';
 import logo from '../Images/logo.png';
 import styled from 'styled-components';
 
+import '../components/CSS Files/PagesLink.css'
+
 const Header = styled.div`
   width: 100%;
   height: 8rem;
@@ -10,6 +12,7 @@ const Header = styled.div`
   align-items: center;
   background-color: #363636;
   padding: 0 10%;
+  box-shadow: 0 6px 8px rgba(000, 200, 000, 0.8);
 `;
 
 const Nav = styled.div`
@@ -31,7 +34,6 @@ const Li = styled.div`
 `;
 
 const StyledLink = styled(Link)`
-  text-decoration: underline;
   text-shadow: 2px 2px 5px white;
   color: black;
   font-size: 3vw;
@@ -51,16 +53,32 @@ function MainNavigation() {
       <Nav>
         <Ul>
           <Li>
-            <StyledLink to="/">About</StyledLink>
+            <Link to="/">
+              <button className="but">
+                <span>About</span>
+              </button>
+            </Link>
           </Li>
           <Li>
-            <StyledLink to="/projects">Projects</StyledLink>
+            <StyledLink to="/projects">
+              <button className="but">
+                <span>Projects</span>
+              </button>
+            </StyledLink>
           </Li>
           <Li>
-            <StyledLink to="/projectPortfolio">Portfolio</StyledLink>
+            <StyledLink to="/projectPortfolio">
+              <button className="but">
+                <span>Portfolio</span>
+              </button>
+            </StyledLink>
           </Li>
           <Li>
-            <StyledLink to="/contact">Contact</StyledLink>
+            <StyledLink to="/contact">
+              <button className="but">
+                <span>Contact</span>
+              </button>
+            </StyledLink>
           </Li>
         </Ul>
       </Nav>

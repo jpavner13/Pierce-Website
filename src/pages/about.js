@@ -12,6 +12,8 @@ import Pro from '../Images/Pro.png'
 import Am from '../Images/ADD.png'
 import As from '../Images/AS.png'
 
+import '../components/CSS Files/wrapImage.css'
+
 const StyledRow = styled(Row)`
   padding: 1rem;
 `;
@@ -25,6 +27,7 @@ const Styledh5 = styled.h5`
 `;
 
 const StyledText = styled.h1`
+  padding:3rem;
   color: grey;
   font-size: 35px;
   text-align: center;
@@ -56,6 +59,7 @@ const StyledImg2 = styled.img`
   height: 300px;
   object-fit: cover;
   padding: 2rem;
+  box-shadow: 0 6px 8px rgba(000, 200, 000, 0.8);
 `;
 
 function AboutPage() {
@@ -66,7 +70,7 @@ function AboutPage() {
     <Container fluid>
       <StyledRow>
         <Col data-aos="fade-right" >
-          <StyledImg src={Pierce}/>
+          <StyledImg id="tv" src={Pierce}/>
         </Col>
         <Col>
           <Styledh5 data-aos="fade-down">About</Styledh5>
