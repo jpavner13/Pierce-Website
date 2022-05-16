@@ -92,7 +92,7 @@ function AboutPage() {
           Languages: 
         </StyledText1>
         <StyledText2>
-          c++, c#, Java, HTML, CSS, Javascript, Ruby, React JS, Verilog, Arduino, and command line control.
+          c++, c#, Java, Python, HTML, CSS, Javascript, Ruby, React JS, Verilog, Arduino, and command line control.
         </StyledText2>
       </StyledRow>
       <StyledRow data-aos="fade-up">
