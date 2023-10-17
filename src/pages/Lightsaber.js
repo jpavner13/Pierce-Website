@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 
 import Lightsaber from "../Images/Lightsaber.JPG";
-import LightsaberVideo from "../Images/Lightsaber_video.MP4";
+import LightsaberVideo from "../Images/Lightsaber_video.MOV";
 import Lightsaber_video2 from "../Images/Lightsaber2.MOV";
 import styled from "styled-components";
 import React, { useEffect } from "react";
@@ -29,7 +29,7 @@ const StyledText = styled.h1`
 const StyledImg = styled.img`
   border: 10px solid dark-grey;
   width: 600px;
-  height: 500px;
+  height: 1000px;
   object-fit: cover;
   padding: 2rem;
 `;
