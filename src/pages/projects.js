@@ -1,18 +1,19 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import React, {useEffect} from "react";
-import Aos from 'aos';
+import { Container, Row, Col } from "react-bootstrap";
+import React, { useEffect } from "react";
+import Aos from "aos";
 import "aos/dist/aos.css";
 
-import Charlee from '../Images/Charlee.png';
-import Rocket from '../Images/Rocket.png';
-import Duck from '../Images/Duck.png';
-import Seaperch from '../Images/Seaperch.png';
-import Guitar from '../Images/Guitar.png';
-import Hackathon from '../Images/Hackathon.png';
+import Charlee from "../Images/Charlee.png";
+import Rocket from "../Images/Rocket.png";
+import Duck from "../Images/Duck.png";
+import Seaperch from "../Images/Seaperch.png";
+import Guitar from "../Images/Guitar.png";
+import Hackathon from "../Images/Hackathon.png";
+import Lightsaber from "../Images/Lightsaber.JPG";
 
-import Card from '../components/Card';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import styled from 'styled-components';
+import Card from "../components/Card";
+import "bootstrap/dist/css/bootstrap.min.css";
+import styled from "styled-components";
 
 const StyledRow = styled(Row)`
   padding: 1rem;
@@ -26,7 +27,7 @@ const StyledText = styled.h1`
 
 function ProjectPage() {
   useEffect(() => {
-    Aos.init({duration: 2000});
+    Aos.init({ duration: 2000 });
   }, []);
   return (
     <Container fluid>
@@ -48,6 +49,15 @@ function ProjectPage() {
             buttonName="Read More"
             routeLink="/Charlee"
           ></Card>
+        </Col>
+        <Col data-aos="flip-left">
+          <Card
+            title="NeoPixel Lightsaber"
+            src={Rocket}
+            description="A project where my inner nerd met my inner engineer"
+            buttonName="Read More"
+            routeLink="/Lightsaber"
+          />
         </Col>
         <Col data-aos="flip-left">
           <Card
@@ -89,9 +99,7 @@ function ProjectPage() {
         </Col>
       </StyledRow>
       <StyledRow data-aos="fade-up">
-        <StyledText>
-          ...and more to come!
-        </StyledText>
+        <StyledText>...and more to come!</StyledText>
       </StyledRow>
     </Container>
   );

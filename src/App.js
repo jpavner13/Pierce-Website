@@ -1,18 +1,19 @@
-import './App.css';
-import { Route, Routes } from 'react-router-dom';
-import Layout from './layout/Layout';
-import ScrollToTop from './components/ScrollToTop';
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Layout from "./layout/Layout";
+import ScrollToTop from "./components/ScrollToTop";
 
-import AboutPage from './pages/about';
-import ProjectPortfolioPage from './pages/projectPortfolio';
-import ContactPage from './pages/contact';
-import ProjectPage from './pages/projects';
-import Charlee from './pages/charlee';
-import RocketPage from './pages/Rocket';
-import SideProjects from './pages/sideProjects';
-import DuckPage from './pages/duck';
-import SeaPerchPage from './pages/seaperch';
-import HackathonPage from './pages/hackathon';
+import AboutPage from "./pages/about";
+import ProjectPortfolioPage from "./pages/projectPortfolio";
+import ContactPage from "./pages/contact";
+import ProjectPage from "./pages/projects";
+import Charlee from "./pages/charlee";
+import RocketPage from "./pages/Rocket";
+import SideProjects from "./pages/sideProjects";
+import DuckPage from "./pages/duck";
+import SeaPerchPage from "./pages/seaperch";
+import HackathonPage from "./pages/hackathon";
+import LightsaberPage from "./pages/Lightsaber";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/duck" element={<DuckPage />} />
           <Route path="/seaperch" element={<SeaPerchPage />} />
           <Route path="/hackathon22" element={<HackathonPage />} />
+          <Route path="/Lightsaber" element={<LightsaberPage />} />
         </Routes>
       </ScrollToTop>
     </Layout>
