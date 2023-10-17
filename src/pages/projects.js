@@ -53,7 +53,7 @@ function ProjectPage() {
         <Col data-aos="flip-left">
           <Card
             title="NeoPixel Lightsaber"
-            src={Rocket}
+            src={Lightsaber}
             description="A project where my inner nerd met my inner engineer"
             buttonName="Read More"
             routeLink="/Lightsaber"
