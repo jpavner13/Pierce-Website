@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-import DRM1_video from "../Images/DRM1.mov";
-import Square_video from "../Images/Square.mov";
+import DRM1_video from "../Images/DRM1.mp4";
+import Square_video from "../Images/Square.mp4";
 import Simulation_video from "../Images/Simulation.mov";
 import Poster from "../Images/Poster.png";
 import styled from "styled-components";
