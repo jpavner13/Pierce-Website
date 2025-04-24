@@ -1,0 +1,41 @@
+.but {
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px 5px forestgreen;
+    font-size: 3rem;
+    max-width: 10rem;
+    padding: 1rem;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .but span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .but span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .but:hover span {
+    padding-right: 25px;
+  }
+  
+  .but:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
