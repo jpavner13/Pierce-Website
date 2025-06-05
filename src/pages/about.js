@@ -75,15 +75,15 @@ function AboutPage() {
         <Col>
           <Styledh5 data-aos="fade-down">About</Styledh5>
           <StyledText data-aos="fade-left">
-            I am a fourth year honors Engineering student majoring in Computer
-            Science with a minor in computer engineering and a focus in real
-            time operating systems at the University of Colorado Boulder. I've
-            been obsessed with mechanical and electrical engineering projects
-            ever since middle school. Now embedded systems is my passion. I've
-            obtained multiple professional certifications, gained expirience
-            from internships and co-ops, and won numerous technology and
-            engineering competitions. I work fast and diligently, and I want to
-            use my skills and ambition to make a positive impact on the world.
+            I recently graduated with honors from CU Boulder with a Bachelor 
+            of Science in Computer Science, a minor in computer engineering, 
+            and a focus in real time operating systems. I've been obsessed with 
+            mechanical and electrical engineering projects ever since middle 
+            school. Now embedded systems is my passion. I've obtained multiple 
+            professional certifications, gained expirience from internships 
+            and co-ops, and won numerous technology and engineering competitions. 
+            I work fast and diligently, and I want to use my skills and ambition 
+            to make a positive impact on the world.
           </StyledText>
         </Col>
       </StyledRow>
